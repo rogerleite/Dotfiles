@@ -1,0 +1,14 @@
+[user]
+  name = Roger Leite
+  email = roger.barreto@gmail.com
+[core]
+  editor = mvim
+  excludesfile = /Users/Roger/.gitignore
+[color]
+  diff = auto
+  interactive = auto
+  status = auto
+[alias]
+  st = status -sb
+  wat = whatchanged -p --abbrev-commit --pretty=medium
+  graph = log --graph --date-order -C -M --pretty=format:'<%h> %ad [%an] %Cgreen%d%Creset %s' --all --date=short
