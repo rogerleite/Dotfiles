@@ -9,6 +9,8 @@
   interactive = auto
   status = auto
 [alias]
+  log = log --decorate
   st = status -sb
   wat = whatchanged -p --abbrev-commit --pretty=medium
   graph = log --graph --date-order -C -M --pretty=format:'<%h> %ad [%an] %Cgreen%d%Creset %s' --all --date=short
+
