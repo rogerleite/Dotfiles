@@ -28,3 +28,6 @@
 [submodule ".vim/bundle/vim-fakeclip"]
 	path = .vim/bundle/vim-fakeclip
 	url = git@github.com:kana/vim-fakeclip.git
+[submodule ".vim/bundle/vim-elixir"]
+	path = .vim/bundle/vim-elixir
+	url = git@github.com:elixir-lang/vim-elixir.git
