@@ -6,7 +6,8 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-colorscheme railscasts
+"colorscheme wombat
+colorscheme Tomorrow-Night-Bright
 
 set showcmd     "show incomplete cmds down the bottom
 set showmode    "show current mode down the bottom
