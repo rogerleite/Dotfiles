@@ -21,6 +21,14 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
+if [ -d "$HOME/bin/elixir/bin" ] ; then
+    PATH="$HOME/bin/elixir/bin:$PATH"
+fi
+
+if [ -d "$HOME/bin/phantomjs/bin" ] ; then
+    PATH="$HOME/bin/phantomjs/bin:$PATH"
+fi
+
 # set PATH to includes rbenv if exists
 if [ -d "$HOME/.rbenv/bin" ] ; then
     PATH="$HOME/.rbenv/bin:$PATH"
