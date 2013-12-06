@@ -1,0 +1,9 @@
+# put this on the end of .bashrc file:
+# . ~/.bash_prompt
+
+PS1="\[\033[38m\]\u";
+PS1="$PS1\[\033[32m\] \w";
+PS1="$PS1\[\033[31m\]";
+PS1="$PS1\`git branch 2>/dev/null | grep \"^\*\" | \\
+sed -r \"s/\*\ (.*)/ \(\1\)/\"\`";
+export PS1="$PS1\n\[\033[37m\]$\[\033[00m\] ";
