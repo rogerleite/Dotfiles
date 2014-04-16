@@ -18,8 +18,8 @@ git submodule update
 ```
 Link it to your .vim and .vimrc and be happy
 ```sh
-ln -s ~/Dotfiles/.vim .vim
-ln -s ~/Dotfiles/.vimrc .vimrc
+ln -s ~/Dotfiles/.vim ~/.vim
+ln -s ~/Dotfiles/.vimrc ~/.vimrc
 ```
 
 ## Others
