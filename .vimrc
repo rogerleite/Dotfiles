@@ -22,6 +22,7 @@ set softtabstop=2
 set expandtab
 set autoindent
 set nobackup
+set noswapfile
 
 if v:version >= 703
     "undo settings
