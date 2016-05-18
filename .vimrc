@@ -24,6 +24,7 @@ set autoindent
 set nobackup
 set noswapfile
 set number
+"set guifont=mononoki:h16 "http://madmalik.github.io/mononoki/
 
 if v:version >= 703
     "undo settings
