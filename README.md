@@ -10,7 +10,7 @@ cd ~
 git clone https://github.com/rogerleite/Dotfiles.git
 ```
 
-Than the the submodules
+Then the submodules
 ```sh
 cd Dotfiles
 git submodule init
